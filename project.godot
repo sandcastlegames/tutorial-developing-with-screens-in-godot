@@ -26,6 +26,7 @@ config/icon="res://images/icon.png"
 
 [autoload]
 
+Constants="*res://nodes/globals/constants.tscn"
 Screens="*res://nodes/globals/screens.tscn"
 
 [physics]

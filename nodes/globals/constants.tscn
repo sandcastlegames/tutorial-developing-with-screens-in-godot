@@ -1,0 +1,12 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://nodes/globals/constants.gd" type="Script" id=1]
+[ext_resource path="res://nodes/screens/settings-screen.tscn" type="PackedScene" id=2]
+[ext_resource path="res://nodes/screens/menu-screen.tscn" type="PackedScene" id=3]
+[ext_resource path="res://nodes/screens/play-screen.tscn" type="PackedScene" id=4]
+
+[node name="Constants" type="Node"]
+script = ExtResource( 1 )
+menu_screen_scene = ExtResource( 3 )
+settings_screen_scene = ExtResource( 2 )
+play_screen_scene = ExtResource( 4 )
